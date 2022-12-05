@@ -2,13 +2,14 @@
   "name": "simple-socket-next-server",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "engines": {
-    "node": "18.x"
+    "node": "14.x"
   },
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "nodemon index.js",
     "build": "next build",
-    "start": "NODE_ENV=production npm run build &&  node server.js",
+    "start": "NODE_ENV=production npm run build &&  node index.js",
     "lint": "next lint"
   },
   "dependencies": {
