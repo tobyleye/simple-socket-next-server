@@ -46,6 +46,7 @@ export default function Home() {
                   name="color"
                   onChange={changeColor}
                   value={col}
+                  checked={activeColor === col}
                 />
                 <span
                   style={{
