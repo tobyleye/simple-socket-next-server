@@ -4,12 +4,12 @@
   "private": true,
   "main": "index.js",
   "engines": {
-    "node": "14.x"
+    "node": "18.x"
   },
   "scripts": {
     "dev": "nodemon index.js",
     "build": "next build",
-    "start": "NODE_ENV=production npm run build &&  node index.js",
+    "start": "NODE_ENV=production node index.js",
     "lint": "next lint"
   },
   "dependencies": {
